@@ -1,0 +1,101 @@
+*{
+   margin: 0;
+   padding: 0;
+
+}
+    
+ 
+ .header{
+   min-height: 100vh;
+   width: 100%;
+   background-image: url(https://monica.on.ge/2021/05/21/09.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+
+
+h1{
+   width: 100%;
+   font-size: 2.5em;
+   padding: 10px;
+   
+   position: absolute;
+   top: 50%;
+   right: 40%;
+   transform: translate(-50%, -60%);
+   background-color: #2F4F4F;
+   color: #fff;
+
+   
+
+   
+   
+
+   
+  
+ 
+
+}
+
+
+.text{
+   width: 90%;
+   color: #fff;
+   line-height: 1.5;
+   position: absolute;
+   top: 57%;
+   left: 30%;
+   transform: translate(-50%,-50%);
+   font-size: large;
+   background-color: #2F4F4F;
+   
+
+   
+
+}
+.paragraph{
+    width: 700px;
+    height: 100vv;
+   padding: 30px;
+
+   
+}
+ #id::first-letter{
+   color: rgb(0, 117, 128);
+   font-size: 4em;
+   float: left; padding-bottom: 5px;
+   
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+}
+.hello{
+   padding-right: 550px;
+   font-size: 2em;
+}
+.hi{
+   padding-right: 520px;
+   font-size: 2em;
+}
+p{
+   font-size: 1.3em;
+   line-height: 32px;
+}
+h2, .paragraph{
+   padding-top: 2em;
+}
+h2 + .paragraph::first-letter{
+   font-size: 4em;
+   float: left; padding-bottom: 5px;
+   color: red;
+}
+li{
+   font-size: large;
+}
+ul span{
+   font-weight: bold;
+}
